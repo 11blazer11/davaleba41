@@ -19,7 +19,6 @@ def register_view(request):
             counter += 1
 
         User.objects.create_user(username=username, password=password)
-        messages.success(request, f"Account created successfully as '{username}'")
         return redirect('login')
 
     return render(request, 'register.html')
