@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
 #authenticate, login, logout gamoyeneba chatgpt davixmare
-#kid argon2 maq gamoyenebuli
+#kide argon2 maq gamoyenebuli
 
 def register_view(request):
     if request.method == 'POST':
